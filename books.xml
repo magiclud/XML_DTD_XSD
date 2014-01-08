@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<!DOCTYPE books SYSTEM "books.dtd">
+<books>
+  <book>
+	<!-- co ze sprawa gdy jest wiecej autorow?  -->
+    <author>Mario Puzo</author>
+    <title>The Godfather</title>
+	<introduction>Za siedmioma lasami, za siedmioma wzgórzami...</introduction>
+	<chapter title="Zamek">
+		<nrPage>12</nrPage>
+		<section>
+			<title>Czerwona komnata</title>
+			<nrParagraph>3</nrParagraph>
+		</section>
+		<section>
+			<title>Uczta na zamku</title>
+			<nrParagraph>0</nrParagraph>
+		</section>
+	<chapter>
+	<chapter title="Polowanie">
+		<nrPage>12</nrPage>
+		<section>
+			<title>Atak niedzwiedzia</title>
+			<nrParagraph>4</nrParagraph>
+		</section>
+		<section>
+			<title>Spór Asesora z Rejentem</title>
+			<nrParagraph>3</nrParagraph>
+		</section>
+	<chapter>
+  </book>
+  <book>
+    <author>Szymborska Wisława</author>
+    <title>Wiersze wybrane</title>
+  </book>
+</books>

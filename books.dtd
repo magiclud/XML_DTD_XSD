@@ -1,0 +1,12 @@
+<!ELEMENT books (book+)>
+<!ELEMENT book (author+, title, introduction, chapter+)>
+
+<!ELEMENT author (#PCDATA)>
+									<!ATTLIST author country CDATA #REQUIRED>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT introduction (#PCDATA)>
+<!ELEMENT chapter title CDATA (nrPage, section+)>
+<!ELEMENT nrPage (#PCDATA)>
+<!ELEMENT section (title, nrParagraph*)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT nrParagraph (#PCDATA)>
